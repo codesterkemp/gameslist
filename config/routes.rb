@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'pages/games'
+
+  get 'pages/details'
+
+  get 'pages/notes'
+
+  get 'pages/rating'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
